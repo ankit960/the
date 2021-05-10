@@ -1,0 +1,557 @@
+
+body{
+    font-family: 'montserrat' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    position: relative;
+    display: inline-block;
+}
+nav{
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    position: fixed;
+    
+
+}
+.menu{
+    font-size: 15px;
+    color: black;
+    margin-right: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logo{
+    width: 45px;
+    padding-bottom: 8px;
+}
+.inner-content{
+    padding: 25px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+   box-shadow: 0 2px 5px white;
+   display: none;
+   border: 5px;
+   width: 140%;
+
+}
+.menu i {
+    padding-left: 2px;
+    font-size: 12px;
+}
+
+
+.in{
+    color: black;
+    border-bottom:  1px solid;
+    display: block;
+    padding: 4px;
+   text-decoration: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.upper:hover .inner-content{
+
+    display: block;
+}
+.upper a:last-of-type{
+    border: 0;
+}
+.buy-btn{
+    background-color: greenyellow;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 10px 30px 5px;
+    margin-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+}
+
+
+
+#banner-section{
+    background: url(img//strawberry.jpg);
+    width: 98%;
+    background-size: cover;
+    height: 100vh;
+    padding: 15px;
+    
+    
+}
+.banner{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.banner-content{
+    font-weight: 650;
+    
+    font-size: 50px;
+    width: 80%;
+    padding-left: 50px;
+    max-width: 1100%;
+    margin-left: 30px;
+    letter-spacing: 7px;
+    
+    
+}
+.banner-massage{
+    font-size: 18px;
+    color: rgb(199, 196, 196);
+    padding-top: 20px;
+    width: 95%;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+#block-section{
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: row;
+    justify-content:stretch;
+}
+
+.block i {
+font-size: 85px;
+}
+.block{
+width: 100%;
+padding: 100px 50px;
+text-align: center;
+box-sizing: border-box;
+}
+.block h3 {
+    font-size: 30px;
+    
+
+}
+
+.block p {
+    
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 1.6;
+	margin-top: 0;
+    
+    
+    
+}
+.block:hover i{
+    transform: scale(1.1, 1.1);
+
+}
+
+#block-one{
+    background-color: #29bb89;
+}
+#block-two{
+    background-color: #81b214;
+}
+#block-three{
+    background-color: #ffc288;
+}
+#block-four{
+    background-color: #ff75a0;
+}
+
+#part-section {
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #fde8cd;
+    
+    
+    
+	
+}
+.v-heading h1{
+    font-size: 50px;
+    font-weight: 500px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.v-heading p{
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    color: gray;
+    font-weight: 400px;
+}
+.v-storeall{
+    width: 25%;
+    text-align: center;
+    
+    padding: 24px;
+
+}
+.v-storeall h3{
+      font-size: 28px;
+     
+}
+.v-storeall p{
+    font-size: 18px ;
+    letter-spacing: 1px;
+    color: gray;
+} 
+.heading{
+    color: #81b214;
+    font-size: 25px;
+    margin-top: 50px;
+}
+#store-container{
+    width: 100%;
+	max-width: 1140px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+.v-store i {
+    font-size: 65px;
+   color: white;
+}
+.v-store{
+    background-color:rgb(247, 208, 150);
+    border-radius: 50%;
+    padding: 40px;
+    display: inline-block;
+    
+}
+.v-store:hover{
+    transform: scale(1.2 , 1.2);
+}
+
+
+.shop-section{
+    width: 100%;
+    text-align: center;
+}
+.heading-2{
+    color: #81b214;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.head{
+    font-size: 50px;
+    font-weight: 500px;
+    margin: 0;
+    margin-bottom: 8px;   
+}
+.head-1{
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    color: gray;
+    font-weight: 400px;
+}
+.main-head{
+    display: flex;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.v-shop{
+    width: 25%;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 50px 40px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+	
+    margin: 15px;
+}
+.v-shop img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+#banner-img{
+    width: 100%;
+    background-image: url(img//str.png);
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+
+}
+.Email-part{
+    
+    justify-content: stretch;
+    margin: 113px;
+    padding-left: 800px;
+}
+.Email-part h3{
+    font-size: 50px;
+    letter-spacing: 1.1;
+    margin: 0 0 auto;
+    padding: 17px;
+    margin-bottom: 2px;
+    
+}
+.Email-part p{
+    font-size: 17px;
+    letter-spacing: 1.1;
+    line-height: 1.5;
+    color: gray;
+    padding: 17px;
+    margin-top:2px;
+    padding-left: 5px;
+    
+}
+
+#Email{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: gainsboro;
+    border: 0 solid white;
+    margin-top: 0px ;
+    
+}
+#sub-btn{
+    background-color: #ff8585;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 0px;
+    border: 0;
+    cursor: pointer;
+}
+#sub-btn:hover{
+    background-color: transparent;
+    color: #ff8585;
+border:  1px solid #ff75a0;
+
+}
+
+
+#num{
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+}
+
+.number{
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.number-1{
+    width: 20%;
+    padding:  0 60px;
+}
+.number-1 h3{
+    font-size: 50px;
+    font-weight: 600px;
+    margin: 0;
+}
+.number-1 p{
+    font-size: 15px;
+    color: #14b275;
+    letter-spacing: 1.1px;
+    font-style: italic;
+    margin: 0;
+    
+}
+
+
+#video-part iframe{
+    width: 100%;
+    height: 500px;
+}
+.vb{
+    width: 100%;
+    
+    margin: 20px auto;
+}
+
+#video-part h3{
+    text-align: center;
+   
+    font-size: 40px;
+    color: gray;
+}
+
+.contact-1{
+    font-size: 22px;
+    color: #81b214;
+    margin-top: 30px;
+    margin: 0;
+}
+
+.Address-part{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.Address-part div{
+    width: 50%;
+}
+
+.Address-part div:last-of-type{
+
+    width: 40%;
+}
+.address-heading{
+    font-size: 48px;
+    font-weight: 650;
+    margin: 0;
+    padding-top: 20px;
+}
+.Massage{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    
+    
+}
+.address-heading2{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.massage-1{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+
+}
+#name{
+    width: 100%;
+    font-size: 15px;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: gray;
+    margin-bottom: 15px;
+    border: 1px solid ;
+
+}
+#submit-btn{
+    font-size: 19px;
+    font-weight: 550;
+    background-color: #81b214;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    
+    
+}
+
+footer{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    text-align: center;
+    padding: 28px 0;
+
+}
+
+
+@media (max-width: 860px) {
+    .menu{
+        display: none;
+    }
+    .primary-button {
+		margin-right: 0;
+	}
+    #block-section {
+        width: 100%;
+        flex-direction: column;
+    }
+    #part-section {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    #banner-img{
+        margin: 16px;
+    }
+    #store-container{
+        flex-direction: column;
+        text-align: center; 
+    }
+    .v-storeall{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #shop-section{
+        padding: 15%;
+        box-sizing: border-box;
+    }
+    .main-head{
+        flex-direction: column;
+    }
+    .v-shop{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #banner-img{
+        width: 100%;
+    }
+    .number{
+        flex-direction: column;
+        
+    }
+    .number-1{
+        width: 100%;
+    }
+    .Address-part{
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        
+    }
+    .Address-part div:last-of-type{
+        width: 100%;
+    }
+}
